@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailGandul">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Gandul"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarGandul"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_nasigandul" />
+
+        <TextView
+            android:id="@+id/text_gandul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi gandul merupakan kuliner khas daerah Pati (daerah pesisir Jawa Tengah, jalan pantai utara Jawa). Daerah di Pati yang memopulerkan nasi gandul ini adalah Desa Gajahmati (arah selatan teminal bus Pati. Desa Semampir/Sebelah timur dari Desa Gajahmati), itulah sebabnya sering ditemui kata-kata Nasi Gandul Gajah Mati. Walaupun pada akhirnya banyak ditemui penjual nasi gandul yang tidak berasal dari Desa Gajahmati tetap menuliskan kata Desa Gajahmati pada spanduk tempat makan mereka. Jika ditelusuri asal-usul pemberian nama nasi gandul, banyak versi yang mengemukakan tentang hal tersebut."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_gandul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_gandul"
+            android:background="#FED53D"
+            android:text="Resep Nasi Gandul" />
+
+    </LinearLayout>
+
+</ScrollView>

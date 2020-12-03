@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Krawu"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarKrawu"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_nasikrawu" />
+
+        <TextView
+            android:id="@+id/text_krawu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi krawu merupakan makanan khas dari daerah Gresik, Jawa Timur. Cirinya adalah nasinya yang pulen dan disajikan dengan daun pisang. Lauknya dapat berupa sayatan daging sapi, semur daging, jeroan sapi, sambal petis dan serundeng. Sambal terasi yang disajikan bersama dengan nasi krawu memiliki rasa pedas yang khas. Bagi pecinta masakan pedas, wajib mencoba nasi krawu saat berkunjung ke Gresik. Nama Nasi Krawu sendiri berasal dari istilah krawuk,yang berarti 'mengambil sembarang dengan menggunakan tangan'. Karena kebanyakan penjual menyiapkan menunya hanya menggunakan tangan, sehingga banyak yang menyebutnya Nasi Krawu atau Sego Krawu. Nasi Krawu memiliki cita rasa yang special, daging suwir pada Nasi Krawu memiliki rasa yang khas, dagingnya juga terasa lembut dan empuk. Untuk serundengnya juga sangat bervariasi karena diolah 2 warna menghasilkan rasa gurih,pedas dan manis,menjadikan Nasi Krawu semakin kaya rasa. Untuk sambal juga tidak kalah nikmat, memiliki rasa pedas yang pas dan aroma terasi yang khas sehingga sangat menggugah selera. Sedangkan untuk nasinya terasa pulen sehingga membuat sajian Nasi Krawu ini terasa nikmat."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_krawu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_krawu"
+            android:background="#FED53D"
+            android:text="Resep Nasi Krawu" />
+
+    </LinearLayout>
+
+</ScrollView>

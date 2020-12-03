@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailAngsle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wedang Angsle"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarAngsle"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_wedangangsle" />
+
+        <TextView
+            android:id="@+id/text_angsle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angsle merupakan wedang khas kota apel. Dalam khazanah kuliner Jawa, “wedang” merupakan sebutan untuk minuman panas. Minuman ini biasanya terbuat dari air yang direbus bersama jahe, serai, dan gula Jawa. Mencicipi angsle, rasanya akan mengingatkan kita pada wedang lainnya dari Jawa, sekoteng. Rasa khas kuah hasil rebusan jahe sangat terasa. Apalagi, angsle pun memiliki isian yang mirip dengan sekoteng. Ada roti, kacang tanah sangrai, kacang hijau rebus, serta aroma daun pandan. Yang membedakan, angsle ditambahkan petulo (putu mayang), ketan putih kukus, dan tape singkong. Hal lain yang membedakan angsle dengan sekoteng adalah pada kuahnya. Jika kuah sekoteng hanya rebusan jahe, serai, dan gula Jawa, maka kuah angsle ditambahkan santan. Konon, kuah angsle dibuat hanya dengan menggunakan daun pandan, vanili, dan santan. Jahe tidak dimasukkan karena dianggap akan mengubah rasa. Tapi, karena diberi label “wedang”, kuah angsle pun ditambahkan dengan jahe. Bahan-bahan campuran angsle antara lain petulo, ketan putih, kacang hijau, potongan roti, mutiara, daun pandan, jahe, kacang tanah goreng, santan, gula, irisan buah kolang-kaling, dan emping belinjo. Kuah angsle awalnya dibuat hanya menggunakan daun pandan, vanili, dan santan. Jahe tidak dimasukkan karena dianggap akan mengubah rasa. Tapi, karena diberi label “wedang”, sebagian penjual akhirnya menambahkan jahe."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_angsle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_angsle"
+            android:background="#FED53D"
+            android:text="Resep Wedang Angsle" />
+
+    </LinearLayout>
+
+</ScrollView>

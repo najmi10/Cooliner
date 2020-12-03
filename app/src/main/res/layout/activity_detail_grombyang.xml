@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailGrombyang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Grombyang"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarGrombyang"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_nasigrombyang" />
+
+        <TextView
+            android:id="@+id/text_grombyang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi grombyang adalah sejenis nasi campur yang merupakan makanan khas dari masyarakat Pemalang, Jawa Tengah. Nama makanan ini berasal dari bentuk penyajiannya, yaitu antara isi dan kuah lebih banyak kuahnya sehingga kelihatan bergoyang-goyang (bahasa Jawa: grombyang-grombyang, artinya 'bergoyang-goyang').
+Ramuan nasi grombyang terdiri dari nasi, irisan daging kerbau dan kuah, disajikan dalam mangkuk kecil dan dilengkapi dengan sate kerbau. Ciri khas lainnya dari nasi grombyang terletak pada tempat jualannya yang berupa kuali besar, tempat nasi ditutupi dengan kain merah, diserta penerangan remang-remang lampu templok. Pembeli menikmati hidangan dengan duduk di kursi kecil pendek (dingklik).
+Tidak diketahui dengan pasti kapan makanan khas ini mulai diciptakan. Namun menurut penuturan para orang tua di Pemalang, makanan khas nasi grombyang sudah ada sejak tahun 1960-an. Pada waktu itu penjual nasi grombyang menjual dagangannya secara tidak menetap, tetapi berkeliling kampung. Penjual nasi grombyang yang terkenal antara lain H. Warso di Jl. R.E. Martadinata di dekat alun-alun, serta H. Waridin di Sirandu dekat bekas terminal lama Pemalang."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_grombyang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_grombyang"
+            android:background="#FED53D"
+            android:text="Resep Nasi Grombyang" />
+
+    </LinearLayout>
+
+</ScrollView>

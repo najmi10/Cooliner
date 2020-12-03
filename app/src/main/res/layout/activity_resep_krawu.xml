@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResepKrawu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resep Nasi Krawu"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Osik Daging :"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="500 gr daging sapi bagian paha
+\n1 sdt garam
+\n2 lembar daun salam
+\n1 batang serai memarkan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Bumbu Halus Osik Daging :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 butir bawang merah
+\n5 siung bawang putih
+\n2 sdt ketumbar
+\n1/4 sdt jinten
+\n1 cm lengkuas
+\n1 cm kunyit
+\n1 sdt garam
+\n2 sdt gula merah"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Krawu Kuning :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="110 gr kelapa parut memanjang
+\n2 siung bawang putih
+\n1 sdt ketumbar
+\n1/2 sdt garam
+\n2 cm kunyit
+\n3 lembar daun jeruk
+\n1 sdm gula pasir"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Krawu Merah :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="110 gr kelapa parut memanjang
+\nbuah cabe merah
+\n2 siung bawang putih
+\n1 sdt ketumbar
+\n1/2 sdt garam
+\n3 lembar daun jeruk
+\n2 sdm gula pasir"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Sambal :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 buah cabe merah
+\n15 buah cabe kecil
+\n3 siung bawang putih
+\n10 butir bawang merah
+\n1 sdt terasi bakar
+\n1/4 sdt asam jawa
+\n1 sdt gula merah
+\n1/2 sdt garam"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Pelengkap :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi
+\nKerupuk
+\nLalapan (timun,kemangi)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.	Cuci bersih daging potong 5 cm an.Masak bersama 1 liter air,daun salam,serai dan garam.Saya presto 20 menitan.
+\n2.	Blender bumbu halus osik.
+\n3.	Setelah panci presto bisa dibuka ambil daging dan suwir-suwir.
+\n4.	Tuang daging suwir dan bumbu halus dalam wajan masak hingga mengering. Sisihkan.
+\n5.	Campur kelapa dengan masing bumbu krawu kuning halusnya masak hingga kelapa kering.
+\n6.	Campur kelapa dengan bumbu merah masak hingga kelapa kering.
+\n7.	Sambal:Goreng cabe,dan bawang hingga layu.Haluskan bersama terasi,gula,asam dan garam. Jika suka bisa digoreng kembali sambalnya.
+\n8.	Sajikan bersama pelengkap, nasi krawu siap dinikmati."/>
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailSotoMie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soto Mie"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarSotoMie"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_sotomie" />
+
+        <TextView
+            android:id="@+id/text_sotomie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soto Mie  adalah hidangan mi berkuah kaldu berbumbu yang lazim ditemukan di Indonesia lebih tepatnya di Sunda, Bogor, Jawa Barat. Masakan Khas Sunda ini kini tidak hanya terdapat di Indonesia, Namun hidangan ini kini juga dikenal di Malaysia dan Singapura. Mie berarti mi telur dari tepung terigu, garam, dan telur, sementara made soto merujuk kepada hidangan sup berkuah khas Indonesia. Di Indonesia soto mie dianggap salah satu jenis hidangan soto atau mi berkuah, sementara di Malaysia dan Singapura hidangan ini disebut mee soto."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_sotomie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_sotomie"
+            android:background="#FED53D"
+            android:text="Resep Soto Mie" />
+
+    </LinearLayout>
+
+</ScrollView>

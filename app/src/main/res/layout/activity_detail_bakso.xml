@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailBakso">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bakso Malang"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarBakso"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_bakso" />
+
+        <TextView
+            android:id="@+id/text_bakso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bakso menjadi terkenal di Indonesia oleh masyarakat Tionghoa Indonesia. Istilah bakso juga berasal dari kata Bak-So dalam bahasa Hokkien (Taiwan) yang artinya adalah daging giling. Dikarenakan penduduk Indonesia mayoritas adalah muslim maka kebanyakan bakso dibuat dari daging halal seperti daging ayam, sapi maupun ikan. Sekarang ini makanan lezat berbentuk bulat ini lebih banyak dijual oleh orang orang Jawa dan yang terkenal adalah berasal dari kota Malang. Di kota Malang bakso disajikan dengan berbagai olahan pangsit dan tahu bakso, isi di dalam satu mangkok bakso Malang lebih terlihat ramai dibandingkan dengan yang lain. Bersyukurlah karena kamu bisa menemukan bakso dengan mudahnya dari penjual keliling hingga kelas restoran. "
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_bakso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_bakso"
+            android:background="#FED53D"
+            android:text="Resep Bakso Malang" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailCendol">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es Cendol"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarCendol"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_cendol" />
+
+        <TextView
+            android:id="@+id/text_cendol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cendol merupakan minuman khas Sunda yang dahulunya terbuat dari tepung hunkwe, namun kini cendol terbuat dari tepung beras, disajikan dengan es parut serta gula merah cair dan santan. Rasa minuman ini manis dan gurih. Di daerah Sunda minuman ini dikenal dengan nama cendol sedangkan di Jawa Tengah dikenal dengan nama es dawet. Berkembang kepercayaan populer dalam masyarakat Indonesia bahwa istilah 'cendol' mungkin sekali berasal dari kata 'jendol', yang ditemukan dalam bahasa Sunda, Jawa, dan Indonesia; hal ini merujuk sensasi jendolan yang dirasakan ketika butiran cendol melalui mulut kala meminum es cendol. Tepung beras diolah dengan diberi pewarna hijau dan dicetak melalui saringan khusus, sehingga berbentuk buliran. Pewarna yang digunakan awalnya adalah pewarna alami dari daun pandan, namun saat ini telah digunakan pewarna makanan buatan. Di Sunda, cendol dibuat dengan cara mengayak kukusan tepung beras yang diwarnai dengan daun suji dengan ayakan sehingga diperoleh bentuk bulat lonjong yang lancip di ujungnya. Di Sunda, minum cendol disebut 'nyendol'."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_cendol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_cendol"
+            android:background="#FED53D"
+            android:text="Resep Es Cendol" />
+
+    </LinearLayout>
+
+</ScrollView>

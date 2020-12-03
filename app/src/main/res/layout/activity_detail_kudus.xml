@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailKudus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soto Kudus"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarKudus"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_sotokudus" />
+
+        <TextView
+            android:id="@+id/text_kudus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soto kudus (Hanacaraka:ꦱꦺꦴꦠꦺꦴꦏꦸꦢꦸꦱ꧀) adalah soto yang berasal dari Kudus. Soto kudus, hampir mirip dengan soto Lamongan, soto kudus berisi suwiran ayam dan taoge. Terkadang soto kudus juga menggunakan daging kerbau. Kuahnya lebih bening. Soto kudus dalam penyajiannya memiliki tradisi dihidangkan dalam mangkuk kecil untuk satu porsi soto. Persis dengan soto lainnya, soto kudus ditemani sambal dan jeruk nipis. Hidangan soto Kudus tidak hanya dapat ditemukan di Kudus, saat ini juga dapat ditemui di berbagai kota di Indonesia. Soto kudus tidak ada yang menggunakan daging sapi karena penghormatan muslim Kudus terhadap agama Hindu, yang mana sapi adalah hewan yang mereka anggap suci. Namun hal ini hanya sebatas anjuran yang berasal dari Sunan Kudus. Dia mengajari Orang Islam untuk menghargai agama lain, khususnya agama Hindu.Ini disebabkan ketika itu di Kudus banyak orang yang memeluk agama Hindu. Hal ini merupakan bentuk toleransi yang telah diajarkan oleh Sunan Kudus pada pemeluk agama Islam yang tinggal di daerah Kudus. Budaya itu pun masih berlaku sampai sekarang."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_kudus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_kudus"
+            android:background="#FED53D"
+            android:text="Resep Soto Kudus" />
+
+    </LinearLayout>
+
+</ScrollView>

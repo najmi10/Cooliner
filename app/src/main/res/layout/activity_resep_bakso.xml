@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResepBakso">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resep Bakso Malang"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Adonan Bakso Sapi :"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 kg daging sapi\n250 gram tepung tapioka\n1 butir telur\n2 sdm tepung maizena\n5 bonggol bawang putih (goreng)\n150 gram bawang merah (goreng)\n1 sdm garam\n1 sdt lada bubuk\n1 sdm kaldu bubuk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Tahu dan Siomay :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="250 gram kulit pangsit\n15 buah tahu goreng\n2 batang daun bawang (iris)\nMinyak untuk menggoreng"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Kuah Bakso :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 liter air
+\n8 siung bawang putih (haluskan)
+\n3 batang daun bawang (iris)
+\n1/2 sdt lada bubuk
+\n1 sdt garam
+\n1 sdt kaldu bubuk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Sambal :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="250 gram cabe rawit merah
+\n8 siung bawang putih
+\nMinyak untuk menumis
+\n1/2 sdt garam
+\n1/4 sdt gula pasir"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Pelengkap :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bihun
+\nSawi
+\nTahu kukus
+\nDaun bawang
+\nBawang goreng
+\nJeruk nipis"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Untuk bahan adonan bakso semuanya saya bawa ke tukang giling daging di pasar. Setelah digiling lembut adonan bisa digunakan. Pindahkan adonan ke dalam wadah. Ambil seperempat bagian adonan untuk isian siomay, sisihkan. Siapkan satu panci berisi air panas. Kemudian cetak bakso, caranya ambil segenggam adonan lalu pencet-pencet dan bulatkan. Ambil bulatan adonan dengan sendok teh. Lalu masukkan ke dalam panci berisi air panas. (Pastikan cuci tangan terlebih dahulu sebelum mulai membentuk adonan).
+\n2. Lakukan membentuk bakso hingga adonan habis.
+\n3. Kemudian rebus bakso hingga matang, angkat dan tiriskan.
+\n4. Untuk adonan siaomay campurkan dengan irisan daun bawang, aduk rata. Ambil selembar kulit pangsit. Kemudian beri isian secukupnya.
+\n5. Tutup kulit pangsit, lakukan hingga selesai
+\n6. Sisa isian gunakan untuk isi dari tahu goreng. Belah dua tahu, kemudian beri isian di tengahnya. Lakukan hingga selesai.
+\n7. Kukus adonan tahu dan siomay hingga matang. Angkat, tiriskan.
+\n8. Untuk sisa kulit pangsit, potong sesuai selera. Kemudian goreng hingga matang. Angkat, tiriskan.
+\n9. Untuk sambal : Rebus cabe rawit dan bawang putih hinga lunak. Kemudian haluskan. Tumis sambal hingga matang dan tanak, bumbui dengan garam dan gula pasir. Aduk rata. Matikan api.
+\n10. Untuk kuah : ulek halus bawang putih, rebus air hingga mendidih. Setelah mendidih masukkan bawang putih halus. Aduk rata, biarkan mendidih kembali. Terakhir bumbui dengan garam, lada bubuk dan kaldu bubuk. Aduk sebentar, tes rasa, masukkan irisan daun bawang. Matikan api.
+\n11. Penyajian : Siapkan mangkuk, beri bihun dan sawi di dasar mangkuk. Beri isian bakso, siomay, tahu goreng dan tahu kukus. Sajikan bakso dengan kuah dan bahan pelengkap lain.
+\n12. Bakso Malang siap dihidangkan selagi hangat."/>
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

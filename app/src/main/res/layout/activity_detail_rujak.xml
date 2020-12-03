@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailRujak">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rujak Cingur"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarRujak"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_rujakcingur" />
+
+        <TextView
+            android:id="@+id/text_rujak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rujak cingur adalah salah satu makanan tradisional yang mudah ditemukan di daerah Arekan Jawa Timur, terutama daerah asalnya Surabaya. Dalam bahasa Jawa kata cingur berarti 'mulut', hal ini merujuk pada bahan irisan mulut atau moncong sapi yang direbus dan dicampurkan ke dalam hidangan. Rujak cingur biasanya terdiri dari irisan beberapa jenis buah seperti timun, kerahi (krai, yaitu sejenis timun khas Jawa Timur), bengkuang, mangga muda, nanas, kedondong, kemudian ditambah lontong, tahu, tempe, bendoyo, cingur, serta sayuran seperti kecambah/taoge, kangkung, dan kacang panjang. Semua bahan tadi dicampur dengan saus atau bumbu yang terbuat dari olahan petis udang, air matang untuk sedikit mengencerkan, gula/gula merah, cabai, kacang tanah yang digoreng, bawang goreng, garam, dan irisan tipis pisang biji hijau yang masih muda (pisang klutuk). Semua saus/bumbu dicampur dengan cara diulek, itu sebabnya rujak cingur juga sering disebut rujak ulek. Dalam penyajiannya rujak cingur dibedakan menjadi dua macam, yaitu penyajian 'biasa' dan 'matengan' (menyebut huruf e dalam kata matengan seperti menyebut huruf e dalam kata: seperti/menyebut/bendoyo). Penyajian 'biasa' atau umumnya, berupa semua bahan yang telah disebutkan di atas, sedangkan 'matengan' (matang, Jawa) hanya terdiri dari bahan-bahan matang saja; lontong, tahu goreng, tempe goreng, bendoyo (kerahi yang digodok) dan sayur (kangkung, kacang panjang, taoge) yang telah digodok. Tanpa ada bahan 'mentah'nya yaitu buah-buahan, karena pada dasarnya ada orang yang tidak menyukai buah-buahan. Keduanya memakai saus/bumbu yang sama.
+Makanan ini disebut rujak cingur karena bumbu olahan yang digunakan adalah petis udang dan irisan cingur. Hal ini yang membedakan dengan makanan rujak pada umumnya yang biasanya tanpa menggunakan bahan cingur tersebut. Rujak cingur biasa disajikan dengan tambahan kerupuk, dan dengan alas pincuk (daun pisang) atau piring."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_rujak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_rujak"
+            android:background="#FED53D"
+            android:text="Resep Rujak Cingur" />
+
+    </LinearLayout>
+
+</ScrollView>

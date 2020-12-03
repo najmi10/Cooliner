@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailLontong">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lontong Balap"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarLontong"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_lontongbalap" />
+
+        <TextView
+            android:id="@+id/text_lontong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lontong balap adalah makanan khas Indonesia yang merupakan ciri khas kota Surabaya di Jawa Timur. Makanan ini terdiri dari lontong, taoge, tahu goreng, lentho, bawang goreng, kecap, dan sambal. Lontong balap terdiri dari lontong yang diiris-iris dan di atas irisan lontong ini ditumpangi irisan tahu dan remasan beberapa lentho (bulatan kecil sebesar ibu jari dan dipencet ini bentuk lentho asli lontong balap, berbeda dengan lentho yang dipakai sekarang), kemudian di atasnya ditumpangi kecambah setengah matang yang porsinya terbanyak dalam hidangan, setelah itu diambilkan kuah secukupnya, sambal dan kecap disesuaikan selera pembeli. Makanan ini dihidangkan dengan pasangannya yaitu, beberapa tusuk sate kerang. Menurut cerita dahulu lontong balap masih dijual dalam kemaron besar yang terbuat dari tanah liat yang dibakar, yang berat dan dipikul keliling kota. Kemaron besar yaitu wadah terbuat dari tanah liat (dibakar menjadi warna merah bata). Karena bobot kemaron yang berat, sekarang tempat ini diganti dengan panci yang terbuat dari logam. Para penjual lontong balap ini, untuk berebut pembeli di perjalanan dan pembeli di pasar berjalan cepat-cepat menuju pos terakhir di Pasar Wonokromo, dari jalan cepat ini menimbulkan kesan berpacu sesama penjual (dalam bahasa Jawa: balapan), dari balapan ini kemudian dikenal dengan nama lontong balap."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_lontong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_lontong"
+            android:background="#FED53D"
+            android:text="Resep Lontong Balap" />
+
+    </LinearLayout>
+
+</ScrollView>

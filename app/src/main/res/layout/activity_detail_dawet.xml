@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailDawet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dawet Ireng"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarDawet"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_dawetireng" />
+
+        <TextView
+            android:id="@+id/text_dawet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dawet Ireng adalah es cendol yang berasal dari daerah Butuh, Purworejo, Jawa Tengah. Kata ireng dari bahasa Jawa berarti hitam. Butiran dawet berwarna hitam, karena diperoleh dari abu bakar jerami yang dicampur dengan air sehingga menghasilkan air berwarna hitam. Air ini kemudian digunakan sebagai pewarna dawet. Dawet ini memiliki keunikan yaitu penyajian dawet yang jumlah dawetnya jauh lebih banyak dibanding kuahnya (santan ditambah air gula). Hal unik lainya, santan biasa diperas langsung dari bungkusan serabut kelapa."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_dawet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_dawet"
+            android:background="#FED53D"
+            android:text="Resep Dawet Ireng" />
+
+    </LinearLayout>
+
+</ScrollView>

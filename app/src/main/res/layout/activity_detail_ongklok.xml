@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailOngklok">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mie Ongklok"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarOngklok"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_mieongklok" />
+
+        <TextView
+            android:id="@+id/text_ongklok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie Ongklok merupakan hidangan mie berkuah  khas dari Kabupaten Wonosobo, Jawa tengah. Menurut cerita masyarakat sekitar, sejarah Mie Ongklok diciptakan oleh Pak Muhadi, dari sebuah daerah kelurahan Jaraksari, Kabupaten Wonosobo pada medio 1960-an. Nama Mie Ongklok diambil dari gerakan pedagang dalam mengolah buah karyanya. Mie yang dimasukkan kedalam saringan bambu bersama kubis dan kucai lalu saringan itu dicelup-celupkan (di-ongklok-ongklok) berulangkali kedalam air mendidih hingga isi di dalammnya matang. Kuah dari Mie Ongklok ini adalah kuah kental nan gurih berwarna kecokelatan perpaduan dari tepung kanji, ebi dan gula jawa yang oleh masyarakat Wonosobo biasa disebut “loh”. Saat ini, Mie Ongklok sudah terkenal sebagai makanan khas dan menjadi santapan yang hukumnya wajib dicoba bagi para pelancong yang menyambangi Kabupaten Wonosobo. Mie Ongklok juga sudah mudah ditemui di berbagai tempat di Wonosobo, beberapa kota lain di Indonesia hingga sudah ada produk mie ini dalam kemasan layaknya mie instan pada umumnya."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_ongklok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_ongklok"
+            android:background="#FED53D"
+            android:text="Resep Mie Ongklok" />
+
+    </LinearLayout>
+
+</ScrollView>

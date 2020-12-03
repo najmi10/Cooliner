@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailLiwet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Liwet Solo"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarLiwet"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_nasiliwet" />
+
+        <TextView
+            android:id="@+id/text_liwet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi liwet (bahasa Jawa: ꦱꦼꦒꦭꦶꦮꦼꦠ꧀, translit. Sega Liwet) adalah makanan khas kota Solo dan merupakan kuliner asli daerah Baki, Kabupaten Sukoharjo. Nasi liwet adalah nasi gurih (dimasak dengan kelapa) mirip nasi uduk, yang disajikan dengan sayur labu siam, suwiran ayam (daging ayam dipotong kecil-kecil) dan areh (semacam bubur gurih dari kelapa). Penduduk kota Solo dan sekitarnya biasa memakan nasi liwet setiap waktu mulai dari untuk sarapan, sampai makan malam. Nasi liwet biasa dijajakan keliling dengan bakul bambu oleh ibu-ibu yang menggendongnya tiap pagi atau dijual di warung lesehan (tanpa kursi). Tempat paling terkenal untuk penjualan nasi liwet (warung lesehan) adalah di daerah Keprabon yang hanya berjualan pada malam hari. Sentra pedagang nasi liwet banyak dijumpai di Desa Duwet dan Menuran Kecamatan Baki, Kabupaten Sukoharjo."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_liwet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_liwet"
+            android:background="#FED53D"
+            android:text="Resep Nasi Liwet Solo" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailJamblang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Jamblang"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarJamblang"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_jamblang" />
+
+        <TextView
+            android:id="@+id/text_jamblang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sega Jamblang (Nasi Jamblang dalam Bahasa Indonesia) adalah makanan khas dari Cirebon, Jawa Barat. Nama Jamblang berasal dari nama daerah di sebelah barat Kabupaten Cirebon tempat asal pedagang makanan tersebut. Ciri khas makanan ini adalah penggunaan daun jati sebagai bungkus nasi. Penyajian makanannya pun bersifat prasmanan. Sega Jamblang adalah makanan khas Cirebon yang pada awalnya diperuntukan bagi para pekerja paksa pada zaman Belanda yang sedang membangun jalan raya Daendels dari Anyer ke Panarukan yang melewati wilayah Kabupaten Cirebon.
+Sega Jamblang saat itu dibungkus dengan daun jati, mengingat bila dibungkus dengan daun pisang kurang tahan lama sedangkan jika dengan daun jati bisa tahan lama dan tetap terasa pulen. Hal ini karena daun jati memiliki pori-pori yang membantu nasi tetap terjaga kualitasnya meskipun disimpan dalam waktu yang lama. Walaupun menunya sangat beraneka ragam, tetapi harga makanan ini relatif sangat murah. Karena pada awalnya makanan tersebut diperuntukan bagi untuk para pekerja buruh kasar di Pelabuhan dan kuli angkut di jalan Pekalipan."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_jamblang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_jamblang"
+            android:background="#FED53D"
+            android:text="Resep Nasi Jamblang" />
+
+    </LinearLayout>
+
+</ScrollView>

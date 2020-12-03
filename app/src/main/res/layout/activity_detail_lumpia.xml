@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailLumpia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lumpia Semarang"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarLumpiaa"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jtn_lumpia" />
+
+        <TextView
+            android:id="@+id/text_lumpia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lumpia Semarang  adalah salah satu makanan khas Semarang  yang berbahan dasar rebung, daging ayam, udang ebi dan telur yang di bungkus dengan kulit lumpia. Makanan ini merupakan salah satu jajanan khas Semarang  yang di sangat diminati  oleh masyarakat ataupun wisatawan yang berkunjung kesana. Lumpia Semarang  ini dari luar memang terlihat sama seperti lumpia pada umumnya. Yang membedakan Lumpia Semarang  ini dengan lumpia pada umumnya adalah isinya. Lumpia pada umumnya hanya menggunakan rebung atau sayuran seperti wortel, kecambah, dan kubis. Namun pada Lumpia Semarang  ini yang berbahan dasar, rebung, daging ayam/udang ebi dan telur. Rebung atau bambu muda ini merupakan bambu muda pilihan, sehingga memiliki tekstur yang empuk dan renyah saat di makan. Dari bahan dasar ini lah yang membuat lumia Semarang  memiliki cita rasa yang khas dan sangat di minati. Lumpia Semarang  ini terbagi menjadi dua jenis, yaitu lumpia goreng dan lumpia basah. Yang membedakan pada jenis ini adalah kulit lumpianya yang di goreng atau tidak. Lumpia basah ini sangat cocok bagi anda yang menghindari makanan gorengan. Kulit lumpia yang di gunakan pada Lumpia Semarang  ini merupakan kulit yang di buat sendiri dengan adonan resep khusus. Sehingga saat di goreng akan terasa kerenyahannya. Selain itu bila di padukan dengan isi lumpia gurih dan lezat membuat sensasi rasa yang khas."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_lumpia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_lumpia"
+            android:background="#FED53D"
+            android:text="Resep Lumpia Semarang" />
+
+    </LinearLayout>
+
+</ScrollView>

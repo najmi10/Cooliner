@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailLengko">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Lengko Cirebon"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarLengko"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jb_lengko" />
+
+        <TextView
+            android:id="@+id/text_lengko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makanan khas yang satu ini sering di jumpai di kota asalnya yaitu Cirebon , Jawa Barat.  Banyak penafsiran akan nama nasi lengko. ada yang menafsirkan nasi lengko itu berasal dari kata nasi 'langko', kata 'langko' sendiri berarti tidak ada atau jarang.
+Ada juga beberapa penafsiran lain yang menafsirkan nasi lengko berasal dari kata 'lekoh' yang berarti kental karena nasi dan lauk pauknya di aduk menjadi satu.
+Bahan makanan khas nasi lengko sendiri amat sederhana, terdiri dari nasi putih, tahu, tempe, mentimun, daun kucai (seledri) yang kemudian di taburi dengan bawang goreng dan di siram dengan bumbu kacang dan kecap. sangat enak jika di nikmati bersamaan dengan krupuk dan emping. Di kota asalnya, nasi lengko merupakan makanan hasil kreatifitas masyarakat cirebon untuk menyiasati keadaan serba kekurangan pasca kemerdekaan."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_nasilengko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_lengko"
+            android:background="#FED53D"
+            android:text="Resep Nasi Lengko Cirebon" />
+
+    </LinearLayout>
+
+</ScrollView>

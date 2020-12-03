@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPecel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Pecel"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarPecel"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/jt_nasipecel" />
+
+        <TextView
+            android:id="@+id/text_pecel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pecel merupakan makanan yang terdiri dari sayur yang direbus dan lauk yang dihidangkan dengan alas yang berbeda-beda sesuai kota asal pecel, misalnya piring lidi yang disebut ingke, pincuk, atau tampah bambu. Sayuran yang dihidangkan antara lain kacang panjang, taoge, mentimun, daun singkong, dan daun kemangi. Bumbu sambal kacang yang disiramkan di atas pecel disebut sambal pecel yang terbuat dari campuran kencur, gula merah, garam, cabai, kecombrang, daun jeruk purut, dan kacang tanah sangrai yang dicampur, ditumbuk, atau diulek. Selain itu, ada pula yang menambahkan daun bawang dan asam jawa ke dalam campuran air hangat untuk mencairkan sambal pecel."
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <Button
+            android:id="@+id/btn_pecel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_below ="@+id/text_pecel"
+            android:background="#FED53D"
+            android:text="Resep Nasi Pecel" />
+
+    </LinearLayout>
+
+</ScrollView>

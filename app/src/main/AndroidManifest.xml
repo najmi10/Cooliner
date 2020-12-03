@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.latihan.cooliner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResepKrawu"></activity>
+        <activity android:name=".ResepLontong" />
+        <activity android:name=".ResepBakso" />
+        <activity android:name=".ResepPecel" />
+        <activity android:name=".DetailCendol" />
+        <activity android:name=".DetailBandros" />
+        <activity android:name=".DetailLengko" />
+        <activity android:name=".DetailSotoMie" />
+        <activity android:name=".DetailKuning" />
+        <activity android:name=".DetailJamblang" />
+        <activity android:name=".DetailMieKocok" />
+        <activity android:name=".DetailGandul" />
+        <activity android:name=".DetailOngklok" />
+        <activity android:name=".DetailDawet" />
+        <activity android:name=".DetailLumpia" />
+        <activity android:name=".DetailKudus" />
+        <activity android:name=".DetailLiwet" />
+        <activity android:name=".DetailGrombyang" />
+        <activity android:name=".DetailAngsle" />
+        <activity android:name=".DetailMadu" />
+        <activity android:name=".DetailRujak" />
+        <activity android:name=".DetailKrawu" />
+        <activity android:name=".DetailLontong" />
+        <activity android:name=".DetailBakso" />
+        <activity android:name=".DetailPecel" />
+        <activity android:name=".MoveActivity3" />
+        <activity android:name=".MoveActivity2" />
+        <activity android:name=".MoveActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

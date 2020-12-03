@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResepPecel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resep Nasi Pecel"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan-bahan :"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi\nAyam goreng\nTempe goreng\nKacang Panjang rebus\nToge Rebus"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Sambel Pecel :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 buah cabe merah\n8 buah cabe rawit\n6 siung bawang putih\n1 ruas kencur\n15 lbr daun jeruk
+\n1 saset terasi abc\n100 gr gula merah iris\n2 sdm air asam jawa pekat\n2 sdt garam\n300 gr kacang tanah\n400 ml air panas"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah :"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.	Siapkan bahan bahan\n2.	Goreng kacang tanah. Tumbuk kasar. Sisihkan\n3.	Iris gula merah. Sisihkan\n4.	Iris dan goreng cabe merah, cabe rawit, bawang putih, kencur, daun jeruk, terasi\n5.	Blender bersama bahan sambal pecel lainnya\n6.	Sambal pecel Madiun Siap\n7.	Penyajian: Tata dipiring nasi, ayam goreng, Tempe goreng, kacang Panjang rebus, toge rebus. Siram dengan sambal pecel\n8.	Nasi Pecel Madiun Siap dihidangkan"/>
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
